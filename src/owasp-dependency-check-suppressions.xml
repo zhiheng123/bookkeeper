@@ -56,6 +56,7 @@
         <sha1>0fa26f72729edb39b506efa96e119f953f59c5a3</sha1>
         <cve>CVE-2020-15113</cve>
     </suppress>
+    <!-- matches BK's http server against apache's http server CVEs -->
     <suppress>
         <notes><![CDATA[
            file name: jetcd-grpc-0.7.7.jar
@@ -95,7 +96,7 @@
         <notes><![CDATA[
    file name: testng-7.5.jar
    ]]></notes>
-        <sha1>1416a607fae667c14e390b484e8d02b5824c0674</sha1>
-        <vulnerabilityName>CVE-2022-4065</vulnerabilityName>
-    </suppress>
+    <sha1>1416a607fae667c14e390b484e8d02b5824c0674</sha1>
+    <vulnerabilityName>CVE-2022-4065</vulnerabilityName>
+  </suppress>
 </suppressions>
